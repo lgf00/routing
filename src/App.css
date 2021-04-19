@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.clickableDiv {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 255);
+  transition: height 0.8s linear;
+  transition: background-color 0.8s ease-in;
+}
+
+.clickableDiv:hover {
+  height: 150px;
+  background-color: aqua;
+  cursor: pointer;
+}
